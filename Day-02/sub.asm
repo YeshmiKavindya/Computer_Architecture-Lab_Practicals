@@ -14,8 +14,8 @@ mov ax,@data
 mov ds,ax
 
 
-mov dl,a ;dl=2
-sub dl,b ;dl=2+7
+mov dl,a 
+sub dl,b 
 add dl,48
 
 
