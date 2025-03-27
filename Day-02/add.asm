@@ -14,7 +14,7 @@ mov ds,ax
 
 
 mov dl,a ;dl=2
-add dl,b ;dl=2+7
+add dl,b ;dl=2+5
 add dl,48
 
 
