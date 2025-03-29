@@ -10,8 +10,8 @@ start:
 mov ax,@data
 mov ds,ax
 
-mov dl,msg ;dl=10
-add dl,48	;48+5=53
+mov dl,msg
+add dl,48	
 
 mov ah,02h
 int 21h
